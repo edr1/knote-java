@@ -127,6 +127,7 @@ class KNoteController {
 
     @PostConstruct
     public void init() throws InterruptedException {
+        // ERROR INITIALIZING MINIO !
         initMinio();
     }
 
